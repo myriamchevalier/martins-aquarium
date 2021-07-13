@@ -3,92 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/main.css" rel="stylesheet">
-    <title>Martin's Aquarium</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-    <header>
+    <!-- header contains page title -->
+    <header class="bodyHeader">
         <h1>Martin's Aquarium</h1>
-    </header>    
+    </header>
+    <!-- main will contain all the content (parent to sections and aside) -->
+    <main class="container">
 
-    <!-- main will contain 3 children elements (sections + aside), displayed side by side using Flexbox -->
-    <main class=main>
-        <section class=locations>
-            <div class=quotes>
-                <p>“Great fish do not swim in shallow waters.”
-                <br>- Matshona Dhliwayo.</p>
+        <section class="quotes">
+            <div class="quote">"Don't go chasing waterfalls" - TLC</div>
+            <div class="quote">"Snitches get no fishes" - Genghis Khan</div>
+            <div class="quote">“Remember folks, fish are like relatives. After two days, they stink.” - Bobby Heenan.</div>
+        </section>
+
+        <section class="locations">
+            <div class="location">
+                <div class="location__image">
+                    <img src="imgs/canada.jpg" alt="A greenish blue river in British Columbia, Canada">
+                </div>
+                <div class="location__name">British Columbia, Canada</div>
+            </div>    
+            <div class="location">
+                <div class="location__image">
+                    <img src="imgs/greece.jpg" alt="A beach hidden in a cove, from above, in Greece">
+                </div>
+                <div class="location__name">Greece</div>
+            </div>    
+            <div class="location">
+                <div class="location__image">
+                    <img src="imgs/hawaii.jpg" alt="Waterfall in Hawaii">
+                </div>
+                <div class="location__name">Hawaii</div>
+            </div>    
+            <div class="location">
+                <div class="location__image">
+                    <img src="imgs/sri-lanka.jpg" alt="Stilt fisherman in Sri Lanka">
+                </div>
+                <div class="location__name">Sri Lanka/div>
+            </div>    
+            <div class="location">
+                <div class="location__image">
+                    <img src="imgs/mexico.jpg" alt="Blue and clear water by a beach in Mexico">
+                </div>
+                <div class="location__name">Mexico</div>
+            </div>    
+        </section>
+
+        <section class="fishes">
+            <div class="fish">
+                <div class="fish__image">
+                    <img src="imgs/french-grunt.jpeg" alt="Yellow and white French Grunt">
+                </div>
+                <div class="fish__species">French Grunt</div>
+                <div class="fish__name">Jean-Paul</div>
+                <div class="fish__length">Length: 8 inches</div>
+                <div class="fish__diet">Crustaceans</div>
+                <div class="fish__harvestLocation">Mexico</div>
             </div>
-            <h2>Locations</h2>
-            <p>Guided by his passion, Martin has become quite the explorer. Here are a few places he traveled to:</p>
-            <ul>
-                <li>
-                    <h5>British Columbia, Canada</h5>
-                    <img src="imgs/canada.jpg" alt="Canadian river in British Columbia">
-                </li>
-                <li>
-                    <h5>Greece</h5>
-                    <img src="imgs/greece.jpg" alt="The bluest of waters in Greece">
-                </li>
-                <li>
-                    <h5>Hawaii</h5>
-                    <img src="imgs/hawaii.jpg" alt="Waterfalls in Hawaii">
-                </li>
-            </ul>
-        </section>
-
-        <section class=fish>
-            <h2>Martin's Fish</h2>
-            <p>Here are all the fish Martin harvested throughout his travels</p>
-
-            <article class="grunt">
-                <ul>
-                    <li class="fish-name">Name: Jean-Paul</li>
-                    <li class="fish-species">Species: French Grunt </li>
-                    <li class="fish-length">Length: 6.6 inches</li>
-                    <li class="fish-harvest">Harvest Location: Tuxpan, Mexico</li>
-                    <li class="fish-diet">Diet: Mollusqs and crustaceans</li>
-                </ul>     
-                <div class="grunt-img">
-                    <img src="imgs/french-grunt.jpeg" alt="Jean-Paul, a yellow and white French Grunt">
+            <div class="fish">
+                <div class="fish__image">
+                    <img src="imgs/french-grunt.jpeg" alt="Yellow and white French Grunt">
                 </div>
-            </article>
-
-            <article class="seahorse">
-                <ul>
-                    <li class="fish-name">Name: Hip </li>
-                    <li class="fish-species">Species: Seahorse (Hippocampus)</li>
-                    <li class="fish-length">Length: 3 inches</li>
-                    <li class="fish-harvest">Harvest Location:</li>
-                    <li class="fish-diet">Diet: Small crustaceans and shrimp</li>
-                </ul>     
-                <div class="seahorse-img">
-                    <img src="imgs/seahorse.jpg" alt="Hip, a tiny pinkish seahorse"
+                <div class="fish__species">French Grunt</div>
+                <div class="fish__name">Jean-Paul</div>
+                <div class="fish__length">Length: 8 inches</div>
+                <div class="fish__diet">Crustaceans</div>
+                <div class="fish__harvestLocation">Mexico</div>
+            </div>
+            <div class="fish">
+                <div class="fish__image">
+                    <img src="imgs/french-grunt.jpeg" alt="Yellow and white French Grunt">
                 </div>
-            </article>
+                <div class="fish__species">French Grunt</div>
+                <div class="fish__name">Jean-Paul</div>
+                <div class="fish__length">Length: 8 inches</div>
+                <div class="fish__diet">Crustaceans</div>
+                <div class="fish__harvestLocation">Mexico</div>
+            </div>
+            <div class="fish">
+                <div class="fish__image">
+                    <img src="imgs/french-grunt.jpeg" alt="Yellow and white French Grunt">
+                </div>
+                <div class="fish__species">French Grunt</div>
+                <div class="fish__name">Jean-Paul</div>
+                <div class="fish__length">Length: 8 inches</div>
+                <div class="fish__diet">Crustaceans</div>
+                <div class="fish__harvestLocation">Mexico</div>
+            </div>
+            <div class="fish">
+                <div class="fish__image">
+                    <img src="imgs/french-grunt.jpeg" alt="Yellow and white French Grunt">
+                </div>
+                <div class="fish__species">French Grunt</div>
+                <div class="fish__name">Jean-Paul</div>
+                <div class="fish__length">Length: 8 inches</div>
+                <div class="fish__diet">Crustaceans</div>
+                <div class="fish__harvestLocation">Mexico</div>
+            </div>
         </section>
-
-        <aside class="tips">
-            <article>
-                <h4>Ideal water temperature</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum nihil temporibus maiores error, iure repellat perspiciatis quas ab nemo est quibusdam, quis recusandae vel. Cupiditate eius hic alias libero mollitia!</p>
-            </article>
-
-            <article>
-                <h4>Martin's tips for a clean tank</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in ex facilis a est! Inventore nisi voluptatum odio corporis repellendus et molestias totam. Vel fuga exercitationem obcaecati omnis, fugit sit.</p>
-            </article>
-
-            <article>
-                <h4>Good water salinity will preserve your sanity</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda quos, eaque libero quod fuga quasi aliquam ad rerum distinctio exercitationem quia quidem nisi hic ab iusto obcaecati modi quisquam sequi.</p>
-            </article>
-        </aside>
     </main>
-
-    <footer>
-        <p>© Copyright MChevalier NSS 2021</p>
-    </footer>
 </body>
 </html>
