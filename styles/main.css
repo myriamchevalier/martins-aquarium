@@ -2,6 +2,7 @@ body {
     background-color: #E8F1F2;
     width: 100%;
     margin: 0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 header {
     position: relative;
@@ -11,21 +12,53 @@ header {
     margin: 0;
     padding: 0;
 }
-header h1 {}
+header h1 {
+    margin: 0;
+    padding: 2em 1em 2em 0;
+}
 .main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: auto;
 }
 .locations { 
-    background-color: rgba(0, 0, 100, 0.5);
-    flex: 0 1 auto;
+    flex: 1 1 auto;
+}
+.locations img {
+    width: 200px;
+    height: auto;
 }
 .fish {
-
+    flex: 1 1 50%;
+}
+.grunt {
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 0;
+    justify-content: flex-end;
+}
+.grunt-img img {
+    width: 200px;
+    height: auto;
+}
+.seahorse {
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 0;
+    justify-content: flex-end;
+}
+.seahorse-img img {
+    width: 200px;
+    height: auto;
 }
 .tips {
-
+    flex: 1 2 30%;
+    padding: 0 2em 0 2em;
+    margin: 0;
+    background-color: rgba(128, 198, 239, 0.8);
+}
+.tips article {
+    background-color: rgba(232, 241, 242, 0.5);
 }
