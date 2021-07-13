@@ -1,0 +1,14 @@
+
+.fish {
+    display: flex;
+}
+
+.fish__image img {
+    width: 300px;
+    height: auto;
+    flex: 2 1 auto;
+}
+
+.fishInfo {
+    flex: 2 1 auto;
+}

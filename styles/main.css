@@ -11,4 +11,16 @@ body {
 }
 .container {
     display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.quotesAndLocations {
+    flex: 1;
+}
+.fishes {
+    flex: 2;
+    padding-left: 5rem;
+}
+.tips {
+    flex: 1;
 }
