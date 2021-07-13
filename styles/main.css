@@ -1,64 +1,14 @@
+@import url(./fishes.css);
+@import url(./locations.css);
+@import url(./quotes.css);
+@import url(./tips.css);
+
 body {
     background-color: #E8F1F2;
-    width: 100%;
-    margin: 0;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-header {
-    position: relative;
-    height: auto;
-    width: 100%;
-    background-color: aquamarine;
-    margin: 0;
-    padding: 0;
+.bodyHeader {
+
 }
-header h1 {
-    margin: 0;
-    padding: 2em 1em 2em 0;
-}
-.main {
+.container {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    height: auto;
-}
-.locations { 
-    flex: 1 1 auto;
-}
-.locations img {
-    width: 200px;
-    height: auto;
-}
-.fish {
-    flex: 1 1 50%;
-}
-.grunt {
-    display: flex;
-    flex-flow: row-reverse;
-    margin: 0;
-    justify-content: flex-end;
-}
-.grunt-img img {
-    width: 200px;
-    height: auto;
-}
-.seahorse {
-    display: flex;
-    flex-flow: row-reverse;
-    margin: 0;
-    justify-content: flex-end;
-}
-.seahorse-img img {
-    width: 200px;
-    height: auto;
-}
-.tips {
-    flex: 1 2 30%;
-    padding: 0 2em 0 2em;
-    margin: 0;
-    background-color: rgba(128, 198, 239, 0.8);
-}
-.tips article {
-    background-color: rgba(232, 241, 242, 0.5);
 }
