@@ -5,22 +5,25 @@
 
 body {
     background-color: #E8F1F2;
+    margin: 0;
 }
 .bodyHeader {
-
+    background-color: #80C6EF;
+    margin: 0;
+    padding: 2rem;
 }
 .container {
     display: flex;
-    flex-flow: row;
-    justify-content: space-between;
 }
 .quotesAndLocations {
     flex: 1;
+    margin: 1rem 2rem;
 }
 .fishes {
     flex: 2;
-    padding-left: 5rem;
+    margin: 1rem 2rem;
 }
 .tips {
     flex: 1;
+    margin: 1rem 2rem;
 }
