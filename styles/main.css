@@ -18,12 +18,18 @@ body {
 .quotesAndLocations {
     flex: 1;
     margin: 1rem 2rem;
+    border: goldenrod solid 3px;
+}
+.quotes {
+    border: aquamarine solid 3px;
 }
 .fishes {
     flex: 2;
     margin: 1rem 2rem;
+    border: goldenrod solid 3px;
 }
 .tips {
     flex: 1;
     margin: 1rem 2rem;
+    border: goldenrod solid 3px;
 }
