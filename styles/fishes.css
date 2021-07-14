@@ -3,7 +3,8 @@
     display: flex;
     margin: 1.5rem;
     padding: 1rem;
-    border: aquamarine solid 3px;
+    border-radius: 10%;
+    background-color: rgba(164, 215, 244, 0.5);
 }
 
 .headerFishes {
@@ -13,6 +14,7 @@
 
 .fish__image {
     width: 30rem;
+    align-self: center;
 }
 .fish__image img {
     width: 100%;
@@ -20,6 +22,11 @@
     flex: 2 1 auto;
     padding-right: 1rem;
     border-radius: 10%;
+    transition: transform 0.2s;
+}
+
+.fish__image img:active{
+    transform: scale(1.6);
 }
 
 .fishInfo {
